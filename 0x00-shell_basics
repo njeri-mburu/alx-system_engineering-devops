@@ -1,3 +1,44 @@
 $ ./0-current_working_directory
 /root/alx-system_engineering-devops/0x00-shell_basics
 $
+
+$ ./1-listit
+Applications    Documents   Dropbox Movies Pictures
+Desktop Downloads   Library Music Public
+$
+julien@ubuntu:/tmp$ pwd
+/tmp
+julien@ubuntu:/tmp$ echo $HOME
+/home/julien
+julien@ubuntu:/tmp$ source ./2-bring_me_home
+julien@ubuntu:~$ pwd
+/home/julien
+julien@ubuntu:~$ 
+$ ./3-listfiles
+total 32
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
+-rwxr-xr-x@ 1 sylvain staff 19 Jan 25 00:23 1-listit
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:29 2-bring_me_home
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
+$
+$ ./4-listmorefiles
+total 32
+drwxr-xr-x@ 6 sylvain staff 204 Jan 25 00:29 .
+drwxr-xr-x@ 43 sylvain staff 1462 Jan 25 00:19 ..
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
+-rwxr-xr-x@ 1 sylvain staff 19 Jan 25 00:23 1-listit
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:29 2-bring_me_home
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:41 4-listmorefiles
+$
+$ ./5-listfilesdigitonly
+total 32
+drwxr-xr-x@ 6 501 20 204 Jan 25 00:29 .
+drwxr-xr-x@ 43 501 20 1462 Jan 25 00:19 ..
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:19 0-current_working_directory
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:23 1-listfiles
+-rwxr-xr-x@ 1 501 20 19 Jan 25 00:29 2-bring_me_home
+-rwxr-xr-x@ 1 501 20 20 Jan 25 00:39 3-listfiles
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:41 4-listmorefiles
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:43 5-listfilesdigitonly
+$
